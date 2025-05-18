@@ -1,6 +1,7 @@
 import React from 'react';
 import { BookOpen, PenTool, Edit3, MessageSquare, List, X, Settings } from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
+import * as framerMotion from 'framer-motion';
+const { motion, AnimatePresence } = framerMotion;
 
 const Header = ({ activeTab, setActiveTab, isMenuOpen, setIsMenuOpen }) => {
   return (
